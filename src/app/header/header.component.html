@@ -1,0 +1,82 @@
+<!--<p>
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Shop Karo</span>
+
+    <span class="example-spacer"></span>
+    <a href="#" class="a">seller </a>
+    <a href="#" class="a">home</a>
+    <a href="#" class="a">login</a>
+
+    <input matInput type="text" [(ngModel)]="value" placeholder="search...">
+    <button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+      <mat-icon>close</mat-icon>
+    </button>
+
+
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+</p>
+<nav class="nav">
+  <h1> E-Commerce</h1>
+  <div class="nav-search">
+    <input type="text" placeholder="search-product" />
+    <button>search</button>
+  </div>
+  <h1>header work</h1>
+  <ul>
+    <li><a routerLink="seller-auth">seller</a></li>
+    <li><a routerLink="">home</a></li>
+    <li><a href="#">login</a></li>
+    <li><a href="#">cart(0)</a></li>
+  </ul>
+</nav> -->
+
+
+
+
+<nav class="nav">
+  <h1> <a routerLink="">E-commerce</a></h1>
+  <div *ngIf="menuType!=='default'" class="nav-search">
+    <input type="text"  #searchInput placeholder="search-product" (keyup)="searchProduct($event.target)" (blur)="hideSearch()"/>
+    <button (click)="submitSearch(searchInput.value)">search</button>
+    <div class="my-3" *ngIf="resultList">   
+       <ul class="suggested-search" > 
+      <li *ngFor="let data of resultList">
+        <a (mousedown)="redirectToProduct(data.id)"> {{data.name}}
+        </a>
+      </li>
+    </ul>
+    </div>
+  </div>
+  <div [ngSwitch]="menuType">
+    <ul *ngSwitchCase="'default'">
+      <li><a routerLink="seller-auth">seller</a></li>
+      <li><a routerLink="">home</a></li>
+      <li><a routerLink="/user-auth">login/sign-cup</a></li>
+      <li><a href="#">cart({{cartItem}})</a></li>
+      <li><a href="#">{{ sellerName | titlecase}}</a></li>
+    </ul>
+    <ul *ngSwitchCase="'user'">
+      <li><a routerLink="seller-auth">seller</a></li>
+      <li><a routerLink="">home</a></li>
+      <li><a >{{userName | titlecase}}</a></li>
+      <li><a routerLink="/my-orders">my orders</a></li>
+      <li><a (click)="logout()">logout</a></li>
+       <li><a [routerLink]=" cartItem>0?'cart-page':null"> cart({{cartItem}})</a></li>  
+       
+    </ul>
+
+    <ul *ngSwitchCase="'seller'">
+      <li><a href="#">cart(0)</a></li>
+      <li><a routerLink="seller-add-product">Add Product</a></li>
+      <li><a (click)="logout()">logout</a></li>
+      <li><a href="#">{{ sellerName | titlecase}}</a></li>
+    </ul>
+  </div>
+
+</nav>
