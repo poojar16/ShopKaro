@@ -5,24 +5,6 @@
       "password": "123",
       "email": "pooja@gmail.com",
       "id": 1
-    },
-    {
-      "name": "SAMSUNG Galaxy M14 5G",
-      "password": "123",
-      "email": "pooja@gmail.com",
-      "id": 2
-    },
-    {
-      "name": "",
-      "password": "",
-      "email": "",
-      "id": 3
-    },
-    {
-      "name": "",
-      "password": "",
-      "email": "",
-      "id": 4
     }
   ],
   "products": [
@@ -30,8 +12,8 @@
       "name": "SAMSUNG Galaxy M14 5G",
       "price": "15000",
       "color": "blue",
-      "category": "mobile  ",
-      "description": "best camera quality  ",
+      "category": "mobile  phone",
+      "description": "best camera quality   ",
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/e/6/d/galaxy-m14-5g-sm-m146b-samsung-original-imagzvnkybtue5da.jpeg?q=70",
       "id": 1
     },
@@ -43,24 +25,6 @@
       "description": "hghgh    ",
       "image": "https://m.media-amazon.com/images/I/91ks01LAC4L._UY741_.jpg",
       "id": 2
-    },
-    {
-      "name": "dairy milk",
-      "price": "100",
-      "color": "brown",
-      "category": "choclate  ",
-      "description": "bhutt acha  ",
-      "image": "https://m.media-amazon.com/images/I/61VNtSQCi8L.jpg",
-      "id": 3
-    },
-    {
-      "name": "cake",
-      "price": "300",
-      "color": "brown",
-      "category": "milk cake ",
-      "description": "sweetest ",
-      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIMApAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAEBQADBgIBB//EAEMQAAIBAwMBBgIIAwUFCQAAAAECAwAEEQUSITEGEyJBUWFxgRQVIzKRobHBM0LRJVJjcnMWJCZiggc0NUNEksLh8f/EABkBAAMBAQEAAAAAAAAAAAAAAAECAwAFBP/EACERAAIDAAIDAQEBAQAAAAAAAAABAhEhAzEEEkFRIjMj/9oADAMBAAIRAxEAPwD57FDxRMac16g44q+GPJqLHoicGjIVDGuO54zV1qp3c0BgqKIVfsAFdxLxUk4yaVhOo8Ec1XcRBhXCv4utEgBl9eKVsSVitk2tgVdDirlg7y5WEAtK5wsajJNF2+j3U02IhHgE5w+do98UEmwx4eSrYEYsnNX28XPSn6aTa2kKSXsiZY7RvbAJ9AKLlsrCK372TulXPBRsEf8A1TJouuGZl5YMtmqSmOK08WmW1whAlkilHGxwKz2o7bK+ktpz3bL0LcBh603Yj4pWBvAWHSgpoCKYJcxy57tlYA9VORUlGQaWiUo7TFAiyarmUKDTLYApPnS+6PBxRoRxFcx5NUMeKOMO/mqpoNoNOgoWs3NSunjO41KYI4gUmmNtEc5xXFrAcU1hhApWOivuhjpURApphb27zyrBEu53OBRmo9nntrKVknDzLHuHkpPmPzFKOot9GZ1G+kewY6fJ9oJVQtt6ZPNZ661u6kDWyTuUUkNIOrH405iaSIG0uoXt5jlxHLwT7j16UANLhSRz3kgIYsAAPPyp1RZQFUQkk+9JcDnnMh4/Oj5bn6JCskdyzAcEo+cDj+o/GuLgRQ58TM4PgwOh9veidD06/wC0GbG1tWmjMgWa7VBtQnyrBpLDb9hLazuFtr8XAS77qVDGshO88hWGehwTxWjj0zVNMktfqqW3e1Vv95Sbh5AfTyzWJ+qk7Kd2sd3IJEYsyTxgjaPT158xTq57Xx29vFNEr4VftPCd3xApGynq2ajUoLCeORGiZCHEjFF+62Ov4elLI9Lgt973dw8rYIRcYO0+TcnPlS+01e0vGaQ3MvffxB02k7cDgdcE9KWjU7e0nWLUbq5nmIDHuYSVYHpyKVU2NTihvpMrgXMUgJFuu6KT05+6T+lIe1ds2sajao8yWxUFWlcZ4JGPnV97rOpXo+j6Zp/dWyYKGTjLerD9BQcuiapPP9Jnu90hA8OMBcdAPSmWLAY5WwW77K3Nqw+rNTifeBjeME4/rV1xo+saXpT6jqN1apAgJKHdvPt0oy0tZtPAubnc7woTGoG4B+ij4DJNIO2OoahkaIsbLBcOvjJyZiTwxJ9fToKaLtE+WMbLbXUEntmlkXbtYA4GQoKhgT8jXk8JkG5PEp6EdDQeo6rJp2qJFpSKUgiS1d/JmXOc/M4qy+N/aiK4MKhmGZUgwVU59B04xTelnmlD8LkhCAZFCXgFW2+qR3QKSIY5B6jg1Rd9TSO06ZJ4LmHiNSoc5qVrYLNTajA5oqS5itkLysFUepoOM1ZcWMl7CgWKOTaQxRxzj1HvQLwjbLH7RNZRBbFC0s7kLgZLYHI9hyKtbtPcfS0PfJ3aQqrIrBgXBySR0A5PnSyeBrnXba1ijENnCg7wlhu2nkj15PU+fypdewtazzrHA2552PBI8JOeODgc+VZo9kc6Q1m1AySG5lRi7HgryCM9Ac8fCg72CfVdWtUid4xNlXdTtOASOQepyPnXGnpcMklvLI8kRJAMnOQRwSPXOPwq28hI1XTnhb7RJVUeeecn96yVBlqK57bQHsPszci52HdvbnDHgk+WOmMfGtNomsLpXZpLfS4+7OVSKEOHklYk7248yceXnilInsWm1OGKzW4lNzN3fiA8QIyB8efkcVSNO1Cxt4ZVFuEVtyQpPtdR6YBxnJ9fLrQe5ZlXdGg19rjUo9SsLeA3syzM1tEpBYAHJbB/lxx78VjJvrCCyS5mt5UgkYKDKNodxnIHr4c8/CtJouqR2Ymm+im2uFge1gnXcXOXyxwT4RkHBI58vOmt9c2GpabbyTQQSSo6xyrfQA5cgneM/DH4UVgrvsyeiWd2zia3VWSRtzFjz0+eMHn41stM0uVE3zyb39SBnHkPeuLCOFWJijEcecKMYA+VWaomoIgms7nu440JZPCCx/zEECmSS0zk3g1jMG9ow6mRPvKOo9K8M0DXJtgw74LvK48qzWmXt3ZJcahPYSOk5XDtOCx8h5Dg0RDrdtpkDd5azzXz5kuQgHgyf5mzgew+FEVpj2W3DDBGRSrVdDg1W9W7vCzyooVD5Lg5HFd/7Vab9EW6+27stsP2fIP7/LNFDV7FoDObhFQddx27fY56UAaLj2diZnLOSshJdQoAfPr60VFp8cKFVUBfIAUxilWaJZIirqwypByCK8f7uD1ooDMb2j0Iyk3Vl4ZQPEnkw/rWZacuTHKu114Ir6VOtYPtPp7212bqNwUJ5z5U3eEuSFoVMvJqVFbcM4IPmDUqDk06PE2zTRxblJMgjAUsSRnoM0NbanKL55baJ3jK4DBsjGfT1oxRbiNmuHkG2Jtixnlm4/ak8M6WIkZMq87KZsMcIXIwAPYdce3ydrDocI5+tI7nb3scYZehK4IPxquVrYrvZE29CzuzAfiaAF1/FPiZd4jA2DIY+55x5g4qqHQrjXkN1bnam7ZhpSdp8x7fl1oI9LdIkmporiGzVpZGOEVF6n0VR/8AtFQWGp2rrd3ljcCRsrEMDKnB6Dru+IxWw0ns3Y9lltIJpAdUvn7sSgZEfBJ2g9fc+fwrrU4ZtHs7iWcJLM86pHIw3ZU/zHPQ54xQbaAqesRaT2Pub+875IZ7KJlcC4Qryc+ak5wQSOmcj502tuxgtDm7zebYiFMT7R164Jzk5PrQVhe3F3dm0uZWd8eEhWhJHrnofjjFNbKe7sZYUFy8kMkgCSN94EHlGHw6Gl9mxqpdmStOz5a9lTUNTFpGd6gbfEXIYHOD5ceXwo260mPTblryK5e7RVAKgHc2ehB6HpzwPnT69eG+ktodSg7y3ulIhuYTteFgcFeOoyKQT2V/aXlzbXFxHNLblmiijXkhjw2Peni22LKkg+2druEpcabHKkbeIJcBmVvhgc/OmNvo+k3wWX7aXacFJZnO3HkQTSyw7Ozxwn+0rlWfxOsZCgsaCjmEMphEabLWRpHmSY5dgMAnzPPFOTZr9Q0/6YbfbIsccTEldvDcY/Hms3qOgX6xzpDNE0JYvtxtLHHVm9q6vbnVbtLMxXP0SSfISKPliPNmz5D96r1DvdOlsbW+unvI9zNtjiJcjBBzycjk+lYIPpem3t7JHLbzw28NucRxmPcu4DlvLzzXE9jcT6tIhRdSK4M25hGm7HAwM9K00N7pNlpkckUsdvARtQYwQfQDrmlNg4kkls7Ry9mobvrpm2MWPPBGMY9axgK8gvrRQdj2cLsq91bF5NuOp4HHwFMbTVZr7UwLSRzaxxkSb0xuc/nRY0Z2Tuxqd41vjlO9zn/qxn86MtrOG0gWG3RUjXpg1gMHkyep5NZ/tXb99pbhRkrz71pJl8ZXPQZpB2gu4ba3fvD1GAPWihGYeG6LRKJY2Yr4chSfOpXMeo3FmgRAwDkvyPU1KdxX4edxQ71e6NsLV0yTvPTz4wRQ1xbbpoUVke0mkDc8dc458z7UVeRLNBEHxjvAOfU5UfmRQ+ljvrVLaUbTcL3lsSevw9+KnHVTK8byyTX/AHoaKRAFwUQd3gttAwDx5nPHXitf/wBlmZZdRDpIYXcE7jlVYZ6cdeTzXz+8tri3bYzSqVJYLu8+efjX0fsDeLYaQlp9Jtpk5Zu74ZST0Pn86Vqi9+3Q+7R6HLqJtZY5tlxaMXt3bJAY+uKVxprkoFpqBaUsdobAK5HuBx61b2g7XpptzBp9ni4vZWXMT9UB55PwpNYdtvptohMTC4kyY3GNh+XkRQcb00J1jG0GmRq0XjaWS3DBWkkLFcnJ5P70ROI7KzwWEkodpQT0DYA/LFJfrG+kCtctDAkgJAZ8Z98UTDe2C24nvbpLghsLboD4iPXPlS0/pVv8LYVaO206B1IkG+dgf5QzEjNVaullqGpsstukjoihmKj045oJ+0wnuXkMALhsFolyH98egwBXejTQXC3Ny/fEiViSV6inixJRf0Nh0WwZR3kRkHkJHZgPhk0T9S6d3bItsiIxBKpkA46VRBqSNE0gV9qkgnHGfak8/a1zOIoFVWB2kMPMjOPiKNi+rNFeaVb3UkcxeaKRBtDRSFTj0qm20JI7ky27PkR7FDHOCT1JPxpVovahr2cW80XO3IlB4bHt1Bpnf6my2xiicxsTks3C4+PrQlKlY0YtuheezVzFIqy3kYJ3KXQeMDOcKT068mun0eWKxgt3sUnjWQmSNHHj9Cc/pS+8uZRdM1xOVBzJFucliB0H6VbZT6vBKZ3d7yN+e5MmzZ8PKtF2aUaOBHJaK0U0Ulkks6tI5+4ijGAD8sURcX0+qanHFp00gtoGBaROFf1yfP4UZNqOpXaGKKxS1DcNJKwbA9gOvzqpri00Syy5VVA6nksf60xNhN7KljbS3EmfCM1861C/fXLyNXZYV3eS9KI1jX7vVvsBtit2bGF6t6ZpZGhg1MQhtyiMvnGPanyK0lLRbdtLNMRuyI8oMexNSjLJUf6QWA/jtUrWTs0OpBxp7tEcNGVcH/KwP7Vb9DS57GhlBL2gcoR1BUn9q0Oi9mJ9RgEl0RDC4+6RkkfCh9OiW1n1nTGOUgupFGfNWAb/AOVTnxyjFNobx+SLbihYzWE2jaUdSeWJpYlAuMmQb/8AmHXn29K4+pjYXQnuk32SgssiHIk46cVWCJuxVm2cm3uE+WJMUfogFt2r1RHUSLsVlDHIXdySBSqeaej1/BBoE0mqahe3KBxeCJjbyN91WIPB/wCn8KWaSqXNlJbo0kc0MZkQA53N6YrV6kLO7nn0uO5OmyH7qOuI2J9SOufes4dFv9Juw7o25CNzJyCp+FUXVonW6HMlzbWm2W4VyOQ2MgfvUntLuS1aRAqOVGw7sZB459KAmuFOoqBtKmX7zAjAFe3dyzAHvfAwYg54OGpNvS9pLDSaNdLo8hlk1O2a4MfciOIEhB1Jz59KRR6jdNDc38U7g9+R3JBPeIepI9qr02KZrFprBYe/EhbxpuLj0Hpih9OmljjurydHdpw0YkUfcY9TinSog5Nmnsu0iLas1sV2qRmNhnA9Vrqw7PSazK1/DcpaIzF8Sc7m/vVlrPSA6mQRl1x4CeD+FO0mKIiszoVXA3HAFTm6eF+PV/Q107TItOeV+/MrjOeaC1DXTKskbBoxjcEYAnA8z6UJa6hH33jmXDfeZjQ+oy2DyN9Gd8n7xVeD+Namw2k8GmjXedRMc0W/ecqxA4+Fam5vrawtjNcOEUdB5n4V81SeSGZ2tC0YY9QOaut7SS/YyTSNtH87eLPtTpV2TcrNMvauW8n7jT7EO2fD3j4rO38lxLrQh1N+8kzkorZUD2qrQ5ZUvpwoC92CuRXUhL9oAWPKwE/nRcl8E1oquo0OsQbESMbCcKMfCvAf7Ylz5QgD8a7lwdbjJ8oSfzqktjUrmT+7CKAjLtE0i/ubNriO1naOSRmRl6MOmfxBryvpHY8932W0tQf/AE6n8ealdGPiRcU7OVPy5KTRqbVxgY+70rE3sYj7Xa0vnJ3MwHqCmP2rV28nFZXVz/xk7eU9ip/9rkfvUvKX8F/Cf/Qy1sT/ALJavCRh4Lh+PTDA0zsJ1bta5H/nWUbCr5dLSGz1JRIzLd73Ytjw5Hl7ClWmuo17SpcfxNPC/hXNf06qyjzt7Di+sWThpcoT8xVcNr9E7RWdtcSySQSRZKs5IJph2yj7y90gj7vfkfPj+lV69Ht1/SpgR4spj86ybpUM0mwnXdGs1sbi7t1YyIN23OQRSbStIg1he9UfRoFGF3clj7Vpr5d1pMp80I/KkvZPI0pcMRgn9a0Zv1M4qxNDGy3r29jK6zAlcA7T86FvYfoMnczF05LYBOM+tNYF2dp7zHJIBq3XrT6XZsT/ABE5Wn99QnrjElvdFyIoZZGJPCgmur3dDKiXJZ2I8POat7NQIVldh4s7c+dWamg+tLRR0o+2g+B1lplmtsWucmQjICcAUv0hY5ruTvI8pEcY8iac/wAlK9AAJuT/AIpoKTpha1FOrx99rMKJ4FkUblXinSJsiCjhQMAClFy27tBCD1WL+tMy/FB3hl9F2h4DXjnzlNV7/wC33P8AgfvU0VvsJfeRqpGTrMrnp3QH5030S8R7cS41tOOsJH61QZM3d57Rj9KLaBGuROc7wMDnyri5jSO3uJVUbyhy3meKZCM+i9lZl/2d09c8pAqn4gV5WZsL2S1sYIlOMRr+lSurHniopHJl40nJs3tvKSMUg1CQP2lsPX6JMv4Mhpjby9OazVjNJe9rZ7gxskcEbRpnpkkE81Dyl/KLeH20PLiKOWF4phmN1KsPUGkk1lDaazpEcI2okcqqM54wP61oZBSPUDJ9f6Ywhd41WUMwXhcgdT8vzrmuJ1Yysr7T9dNbyW7X9DR97Z295LDNMrd7ASYyGIwf3pd2sKLa2uTg/So8D502KYGam7pFU7Zxc828mTzsP6Ug7IOG0/Yeu8/rT5wcEMOCOaEtLO3tRst0EY9BQXVDPuxIFK9qLn3jBprKuUIPpS2Uhe00vvEKayECBj7UzQi+me0Ff+8f6rVzfJu1i1APIBNW6JgJLjzlY0Y1pFLOszZ3r0pvovwtxtjJNKdCIEcx9ZjTW44jIBzSrS4Xt43EgwSxI5o/APsqJ39oGP8Adio+VwFNLkydZmb/AAxRko3IVBxkUzQoFpJ/3EH+8zH864hJOo3H+VaJtLYWkIjDFsHOTXKW6JO8wJ3vwaatEbO6rukZ7WZEGWKEAVYetelggNPFE5Ms7xiq7l2kKMr6H0ryiLKBpoe8I+8eKlepcMmrPM+aKdGuhJoe+8FyjLwSMnHxFe1Krz/5M8vjf6oPPMKk9cUO1SpXLZ2UU3FvBcoBcRJIFO5d65wfWrUHgUeWKlSpsqiSAelUlVwTjmpUpWOZS4P/ABLJ/pLTZ+YTmpUp2IhJon3JP9Rv1pqOlSpRZkcPVRAyeKlSgAWR/wDik5/5BRVSpVBDxqqPU1KlMhGc1VKTkDyNSpVERkOISViULwAOgr2pUrqR6ORLs//Z",
-      "id": 4
     },
     {
       "name": "laptop hp",
@@ -75,8 +39,8 @@
       "name": "Real ME 9pro 5g",
       "price": "18999",
       "color": "purple",
-      "category": "mobile  ",
-      "description": "best camera quality  ",
+      "category": "mobile   phone",
+      "description": "best camera quality   ",
       "image": "https://rukminim2.flixcart.com/image/416/416/kzogn0w0/mobile/9/u/s/-original-imagbmf2fttpg4xb.jpeg?q=70",
       "id": 6
     }
@@ -88,6 +52,12 @@
       "email": "pooja@gmail.com",
       "mobile": "9717232634",
       "id": 1
+    },
+    {
+      "name": "pooja",
+      "email": "pooja@gmail.com",
+      "mobile": "1236547890",
+      "id": 2
     }
   ],
   "cart": [
@@ -150,6 +120,18 @@
       "productId": 2,
       "userId": 1,
       "id": 21
+    },
+    {
+      "name": "SAMSUNG Galaxy M14 5G",
+      "price": "15000",
+      "color": "blue",
+      "category": "mobile  phone",
+      "description": "best camera quality   ",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/e/6/d/galaxy-m14-5g-sm-m146b-samsung-original-imagzvnkybtue5da.jpeg?q=70",
+      "quantity": 8,
+      "userId": 2,
+      "productId": 1,
+      "id": 22
     }
   ],
   "orders": [

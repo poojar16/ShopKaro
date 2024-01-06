@@ -23,6 +23,10 @@ export class SellerHomeComponent implements OnInit {
         this.productMessage = 'product is deleted';
         this.list();
       }
+    },err=>{
+      console.log(err);
+      this.productMessage = 'product is deleted';
+      this.list();
     });
     setTimeout(() => {
       this.productMessage = undefined;
